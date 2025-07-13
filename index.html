@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Simulador de Presupuesto</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main class="contenedor">
+    <h1>Simulador de Presupuesto</h1>
+
+    <form id="formulario">
+      <label for="ingresoInput">Ingresos mensuales:</label>
+      <input type="number" id="ingresoInput" min="0" required />
+
+      <div id="egresosContainer">
+        <!-- Se insertan inputs de gastos dinámicamente -->
+      </div>
+
+      <button type="submit">Calcular</button>
+    </form>
+
+    <section id="resultado">
+      <!-- Acá se mostrará el balance -->
+    </section>
+  </main>
+
+  <script src="JS/simulador.js"></script>
+</body>
+</html>
+
